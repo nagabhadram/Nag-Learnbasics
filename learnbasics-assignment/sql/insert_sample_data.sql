@@ -1,8 +1,21 @@
--- Insert sample student data
-INSERT INTO student_data (id, school_name, class, section, student_name, roll_number) VALUES
-(1, 'Green Valley School', '10', 'A', 'John Doe', 101),
-(2, 'Green Valley School', '10', 'B', 'Jane Smith', 102),
-(3, 'Sunrise Academy', '9', 'A', 'Alice Brown', 201),
-(4, 'Sunrise Academy', '9', 'B', 'Bob Wilson', 202),
-(5, 'Green Valley School', '10', 'A', 'Mary Johnson', 103),
-(6, 'Sunrise Academy', '10', 'A', 'Tom Clark', 203);
+INSERT INTO public.student_data (school_name, class, section, student_name, roll_number) VALUES
+('Green Valley School', '10', 'A', 'John Doe', 101),
+('Green Valley School', '10', 'B', 'Jane Smith', 102),
+('Sunrise Academy', '9', 'A', 'Alice Brown', 201),
+('Sunrise Academy', '9', 'B', 'Bob Wilson', 202),
+('Green Valley School', '10', 'A', 'Mary Johnson', 103),
+('Sunrise Academy', '10', 'A', 'Tom Clark', 203),
+('Green Valley School', '9', 'A', 'Chris Martin', 104),
+('Sunrise Academy', '10', 'B', 'Emma Davis', 204),
+('Green Valley School', '9', 'B', 'Paul Allen', 105),
+('Sunrise Academy', '11', 'A', 'Olivia White', 205),
+('Green Valley School', '11', 'A', 'Sophia Lee', 106),
+('Sunrise Academy', '11', 'B', 'Liam Harris', 206),
+('Green Valley School', '12', 'A', 'Mason Young', 107),
+('Sunrise Academy', '12', 'B', 'Isabella King', 207),
+('Green Valley School', '12', 'B', 'Ethan Scott', 108),
+('Sunrise Academy', '10', 'A', 'Mia Turner', 208),
+('Green Valley School', '11', 'B', 'Jacob Baker', 109),
+('Sunrise Academy', '9', 'A', 'Amelia Carter', 209),
+('Green Valley School', '9', 'A', 'Michael Adams', 110),
+('Sunrise Academy', '10', 'B', 'Emily Mitchell', 210);
